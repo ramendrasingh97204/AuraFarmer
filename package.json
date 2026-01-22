@@ -1,0 +1,45 @@
+{
+  "name": "aura-telegram-bot",
+  "version": "1.0.0",
+  "description": "AI-assisted DeFi portfolio analysis and insights via Telegram with multi-chain support.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon bot.js",
+    "direct": "node bot.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "migrate": "node migrate.js",
+    "lint": "eslint *.js"
+  },
+  "keywords": ["telegram", "bot", "defi", "ai", "portfolio", "analysis", "multichain"],
+  "author": "AURA Bot Team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AryanSaxenaa/AuraFarmer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AryanSaxenaa/AuraFarmer/issues"
+  },
+  "homepage": "https://github.com/AryanSaxenaa/AuraFarmer#readme",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.6",
+    "axios": "^1.6.2",
+    "sqlite3": "^5.1.6",
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.1",
+    "groq-sdk": "^0.7.0",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "eslint": "^8.55.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
